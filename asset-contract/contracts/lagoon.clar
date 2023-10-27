@@ -63,6 +63,11 @@
     )
 )
 
+
+;; read only functions
+;;
+
+;; private functions
 (define-private (calculate-accrued-interest (principal uint) (start-block uint))
     (let (
         (elapsed-blocks (- block-height start-block))
@@ -72,10 +77,6 @@
        (ok interest)
     )
 )
-;; read only functions
-;;
-
-;; private functions
 ;;
 
 ;; Define the contract's data variables 

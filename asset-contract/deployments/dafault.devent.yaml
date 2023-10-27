@@ -1,7 +1,0 @@
-- contract-publish:
-    contract-name: lagoon
-    expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-    cost: 38610
-    path: contracts/lagoon.clar
-    anchor-block-only: true
-    clarity-version: 2
